@@ -1,0 +1,3 @@
+require "pong"
+
+run Pong
