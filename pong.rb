@@ -1,7 +1,6 @@
 require "rubygems"
 require "sinatra/base"
 require "em-websocket"
-require "thin"
 
 EventMachine.run do
   class Pong < Sinatra::Base
