@@ -5,7 +5,7 @@ require "em-websocket"
 EventMachine.run do
   class Pong < Sinatra::Base
     get '/' do
-      "hello, world!"
+      erb :index
     end
   end
   
